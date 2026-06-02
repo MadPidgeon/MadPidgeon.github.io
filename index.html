@@ -1,4 +1,5 @@
 <html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<title>Daniël van Gent — Homepage</title>
 		<style>
@@ -7,8 +8,13 @@
 			background-color: fbfef9;
 		}
 		.content {
-			max-width: 1000px;
+			width: 1000px;
 			margin: auto;
+		}
+		@media screen and (max-width: 1000px) {
+			.content {
+				width: 100%;
+			}
 		}
 		a {
 			color: rgb(0,51,105);
@@ -20,20 +26,25 @@
 			color: rgb(0,51,105);
 			margin-left: 104px;
 		}
+		b {
+			color: rgb(0,51,105);
+		}
 		th {
 			text-align: right;
 			vertical-align: top;
 			color: rgb(0,51,105);
 			font-weight: normal;
 			width: 80px;
-		}
-		td {
-			padding: 0 15px;
+			padding: 0 15px 0 0;
 		}
 		table {
 			border: 0;
-			padding-right: 20px;
 		    margin-bottom: 25px;
+		}
+		@media only screen and (max-width: 400px) {
+			th {
+				display: none;
+			}
 		}
 		</style>
 	</head>
@@ -43,12 +54,12 @@
 		
 		<table>
 			<tr>
-				<th style="vertical-align:bottom">Face</th>
-				<td><img src="face.jpg" width="240px" alt="A most handsome visage" ></td>
+				<th>Face</th>
+				<td><img src="face.jpg" width="240px" alt="A most handsome visage" style="margin-bottom: 8px;"></td>
 			</tr>
 			<tr>
 				<th>Name</th>
-				<td>Daniël (Daan) M. H. van Gent</td>
+				<td><b>Daniël (Daan) M. H. van Gent</b></td>
 			</tr>
 			<tr>
 				<th>Position</th>
@@ -67,7 +78,7 @@
 				<td>dmhvg@cwi.nl</td>
 			</tr>
 			<tr>
-				<th>Promotores</th>
+				<th>Promotors</th>
 				<td>Hendrik Lenstra, Ronald van Luijk</td>
 			</tr>
 			<tr>
@@ -86,7 +97,7 @@
 		
 		<table>
 			<tr><th>Title</th><td>
-				On Module Lattices with Galois-Symmetries: What you see is not what you get
+				<b>On Module Lattices with Galois-Symmetries: What you see is not what you get</b>
 			</td></tr><tr><th>Authors</th><td>
 				Ronald Cramer, Daniël van Gent, Andrea Lesavourey, Alice Pellet-Mary
 			</td></tr><tr><th>Date</th><td>
@@ -100,7 +111,7 @@
 		
 		<table>
 			<tr><th>Title</th><td>
-				Polynomial-time Algorithms in Algebraic Number Theory: Based on Lectures by Hendrik Lenstra
+				<b>Polynomial-time Algorithms in Algebraic Number Theory: Based on Lectures by Hendrik Lenstra</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -108,13 +119,13 @@
 			</td></tr><tr><th>Journal</th><td>
 				Number Theory Informed by Computation, IAS/Park City Mathematical Series, Volume 29
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://arxiv.org/abs/2502.19036">https://arxiv.org/abs/2502.19036</a>
+				<a href="https://arxiv.org/abs/2502.19036">arxiv.org/abs/<wbr>2502.19036</a>
 			</td></tr>
 		</table>
 		
 		<table>
 			<tr><th>Title</th><td>
-				A Search to Distinguish Reduction for the Isomorphism Problem on Direct Sum Lattices
+				<b>A Search to Distinguish Reduction for the Isomorphism Problem on Direct Sum Lattices</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent, Wessel van Woerden
 			</td></tr><tr><th>Date</th><td>
@@ -122,13 +133,13 @@
 			</td></tr><tr><th>Journal</th><td>
 				Asiacrypt 2025, Lecture Notes in Computer Science, Volume 16247
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://doi.org/10.1007/978-981-95-5099-9_1">https://doi.org/10.1007/978-981-95-5099-9_1</a>
+				<a href="https://doi.org/10.1007/978-981-95-5099-9_1">doi.org/10.1007/<wbr>978-981-95-5099-9_1</a>
 			</td></tr>
 		</table>
 		
 		<table>
 			<tr><th>Title</th><td>
-				HAWK: Having Automorphisms Weakens Key
+				<b>HAWK: Having Automorphisms Weakens Key</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent, Ludo Pulles
 			</td></tr><tr><th>Date</th><td>
@@ -136,13 +147,13 @@
 			</td></tr><tr><th>Journal</th><td>
 				IACR Communications in Cryptology, Volume 2, Issue 2
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://doi.org/10.62056/a3qjp2w9p">https://doi.org/10.62056/a3qjp2w9p</a>
+				<a href="https://doi.org/10.62056/a3qjp2w9p">doi.org/10.62056/a3qjp2w9p</a>
 			</td></tr>
 		</table>
 
 		<table>
 			<tr><th>Title</th><td>
-				Realizing orders as group rings
+				<b>Realizing orders as group rings</b>
 			</td></tr><tr><th>Authors</th><td>
 				Hendrik Lenstra, Alice Silverberg, Daniel van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -150,13 +161,13 @@
 			</td></tr><tr><th>Journal</th><td>
 				Journal of Algebra, Volume 641
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://doi.org/10.1016/j.jalgebra.2023.11.017">https://doi.org/10.1016/j.jalgebra.2023.11.017</a>
+				<a href="https://doi.org/10.1016/j.jalgebra.2023.11.017">doi.org/10.1016/<wbr>j.jalgebra.2023.11.017</a>
 			</td></tr>
 		</table>		
 		
 		<table>
 			<tr><th>Title</th><td>
-				Non-abelian Flows in Networks
+				<b>Non-abelian Flows in Networks</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -164,13 +175,13 @@
 			</td></tr><tr><th>Journal</th><td>
 				Journal of Graph Theory, Volume 104, Issue 1
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://doi.org/10.1002/jgt.22958">https://doi.org/10.1002/jgt.22958</a>
+				<a href="https://doi.org/10.1002/jgt.22958">doi.org/10.1002/jgt.22958</a>
 			</td></tr>
 		</table>
 		
 		<table>
 			<tr><th>Title</th><td>
-				Order versus Chaos
+				<b>Order versus Chaos</b>
 			</td></tr><tr><th>Authors</th><td>
 				Mark van den Bergh, Sipke Castelein, Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -178,7 +189,7 @@
 			</td></tr><tr><th>Journal</th><td>
 				2020 IEEE Conference on Games
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://doi.org/10.1109/CoG47356.2020.9231895">https://doi.org/10.1109/CoG47356.2020.9231895</a>
+				<a href="https://doi.org/10.1109/CoG47356.2020.9231895">doi.org/10.1109/<wbr>CoG47356.2020.9231895</a>
 			</td></tr>
 		</table>
 		
@@ -186,7 +197,7 @@
 		
 		<table>
 			<tr><th>Title</th><td>
-				Decompositions in algebra
+				<b>Decompositions in algebra</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -194,13 +205,13 @@
 			</td></tr><tr><th>Description</th><td>
 				PhD thesis
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://hdl.handle.net/1887/3720065">https://hdl.handle.net/1887/3720065</a>
+				<a href="https://hdl.handle.net/1887/3720065">hdl.handle.net/<wbr>1887/3720065</a>
 			</td></tr>
 		</table>
 		
 		<table>
 			<tr><th>Title</th><td>
-				Indecomposable Algebraic Integers
+				<b>Indecomposable Algebraic Integers</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -208,13 +219,13 @@
 			</td></tr><tr><th>Description</th><td>
 				Manuscript under review
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://arxiv.org/abs/2111.00499">https://arxiv.org/abs/2111.00499</a>
+				<a href="https://arxiv.org/abs/2111.00499">arxiv.org/abs/<wbr>2111.00499</a>
 			</td></tr>
 		</table>
 		
 		<table>
 			<tr><th>Title</th><td>
-				Algorithms for finding the gradings of reduced rings
+				<b>Algorithms for finding the gradings of reduced rings</b>
 			</td></tr><tr><th>Authors</th><td>
 				Daniël van Gent
 			</td></tr><tr><th>Date</th><td>
@@ -222,7 +233,7 @@
 			</td></tr><tr><th>Description</th><td>
 				Master thesis
 			</td></tr><tr><th>Access</th><td>
-				<a href="https://hdl.handle.net/1887/3596945">https://hdl.handle.net/1887/3596945</a>
+				<a href="https://hdl.handle.net/1887/3596945">hdl.handle.net/<wbr>1887/3596945</a>
 			</td></tr>
 		</table>
 		
